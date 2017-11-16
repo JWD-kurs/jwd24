@@ -90,8 +90,7 @@ Pored prenošenja parametara kroz URL, dodatni parametri mogu se prosleđivati i
 
 ### Domaći zadatak
 
-1. Po uzoru na aktivitnosti, proširiti klasu User poljem adminComment
-1. Napraviti UserDTO koji ne sadrži polje adminComment i UserRegistrationDTO, koji sadrži polje password dva puta
+1. Napraviti UserDTO koji ne sadrži polje password i UserRegistrationDTO, koji sadrži polje password dva puta
 1. Napraviti konvertore za nove DTO klase
 1. Izmeniti ApiUserController tako da se koriste DTO klase 
 1. Implementirati REST zahtev za pretragu korisnika po korisničkom imenu
