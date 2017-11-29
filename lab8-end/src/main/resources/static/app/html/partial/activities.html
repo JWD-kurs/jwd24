@@ -1,0 +1,29 @@
+<div ng-controller="activitiesCtrl">
+	
+	<br/>
+	<br/>
+	<div class="page-header">
+		<h3>Activites</h3>
+	</div>
+	
+	<form>
+		<input type="text" ng-model="newActivity.name" />
+		<button ng-click="addActivity()">Add</button>
+	</form>
+
+	<div ng-show="gotActivities">
+		<table border="1">
+			<tr>
+				<th>Name</th>
+			</tr>
+			<tr ng-repeat="a in activities">
+				<td>{{a.name}}</td>
+				<!-- Prilikom poziva funkcije nije bilo potrebno staviti viticaste
+				zagrade za vrednost! To je tako, jer angular zna da tu treba da izvrsi
+				evaluaciju. -->
+				<td><button ng-click="editActivity(a.id)">Edit</button></td>
+				<td><button ng-click="deleteActivity(a.id)">Delete</button></td>
+			</tr>
+		</table>
+	</div>
+</div>
