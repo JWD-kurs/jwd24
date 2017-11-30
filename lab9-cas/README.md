@@ -106,4 +106,4 @@ Takođe, custom servisi nemaju $ na početku imena, za razliku od AngularJS ugra
 
 * Omogućiti pretraživanje korisnika po imenu ILI prezimenu (dakle ukoliko je upit pretrage "pet"), treba pronaći korisnika koje se zove npr. "Petar",
 ali i korisnika koji se preziva npr. "Petrović".
-* Dodati novu stranicu "Filmovi", na kojoj je moguće pretraživati filmove po imenu i godini koristeći themoviedb.org API https://www.themoviedb.org/documentation/api .
+* Dodati novu stranicu "Filmovi", na kojoj je moguće pretraživati filmove po imenu i godini koristeći themoviedb.org API https://www.themoviedb.org/documentation/api .- kljuc 57b085c024c55cd55479bbcdf0792199
