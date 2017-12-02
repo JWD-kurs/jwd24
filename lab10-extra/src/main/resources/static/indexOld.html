@@ -1,0 +1,26 @@
+<html>
+<head>
+	<script src="/assets/js/angular.js"></script>
+	<script src="/app/js/mainOld.js"></script>
+	<title>Indeks</title>
+</head>
+<body>
+	<h1>Indeks</h1>
+	<div ng-app="wafepaApp">
+		<div ng-controller="myCtrl">
+			{{poruka}}<br>
+			<input ng-model="poruka" ng-change="izmena()">
+			<br>
+			<button ng-click="pozdravi()">klikni</button>
+			<button ng-click="promeni()">promeni</button>
+			<div ng-if="upaljeno">asdf sdaf asfd asfd asfd</div>
+			<input ng-model="poruka" ng-disabled="upaljeno">
+			<div ng-controller="newCtrl">
+				new ctrl <br>
+				{{poruka}}<br>
+				<input ng-model="poruka">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
